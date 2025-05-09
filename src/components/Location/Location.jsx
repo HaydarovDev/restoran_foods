@@ -4,7 +4,7 @@ import { CiLocationOn } from "react-icons/ci";
 
 const Location = () => {
   return (
-    <div className="w-full mt-5 p-4">
+    <div className="w-full mt-5 p-4 hidden sm:hidden">
       <div className="w-full py-4 bg-[#EFEFEF] rounded-[8px] flex flex-col justify-center items-center">
         <h3 className="mb-3">Проверить адрес доставки</h3>
         <label
